@@ -3,14 +3,14 @@ import time
 
 class Config(object):
     # Pyrogram Client
-    API_ID    = int(os.environ.get("API_ID", "21803165"))  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "05e5e695feb30e25bef47484cc006da7") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7711451543:AAEcgbrmckS0xZv4WbVX-4GdyIircl870") # ⚠️ Required
+    API_ID    = int(os.environ.get("API_ID", "21265409"))  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "34c826fd1b989c35e338248d07ad3665") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7398678577:AAG-FdOk83vMZ8f2-hW2V74BQIIRB0I0iIc") # ⚠️ Required
     
     # Other Configs
     BOT_START_TIME = time.time()
-    OWNER    = int(os.environ.get("OWNER", "673088758"))  # ⚠️ Required
-    SUDO = list(map(int, os.environ.get("SUDO", "673082758").split()))  # ⚠️ Required
+    OWNER    = int(os.environ.get("OWNER", "8182605117"))  # ⚠️ Required
+    SUDO = list(map(int, os.environ.get("SUDO", "8182605117").split()))  # ⚠️ Required
     # Web Response Config
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
     PORT = int(os.environ.get("PORT", "8080"))
@@ -32,7 +32,7 @@ class Txt(object):
     SEND_SESSION_MSG = """
 **❪ 𝖲ᴇɴᴅ 𝖲ᴛʀɪɴɢ 𝖲ᴇssɪᴏɴ ❫**
 
-**☛ 𝖦ᴇɴᴇʀᴀᴛᴇ 𝖲ᴛʀɪɴɢ 𝖲ᴇssɪᴏɴ 𝖥ᴏʀᴍ <a href=t.me/king_string_session_bot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>**
+**☛ 𝖦ᴇɴᴇʀᴀᴛᴇ 𝖲ᴛʀɪɴɢ 𝖲ᴇssɪᴏɴ 𝖥ᴏʀᴍ <a href=https://telegram.tools/session-string-generator#pyrogram>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>**
 
 
 """
